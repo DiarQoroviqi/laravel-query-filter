@@ -1,0 +1,31 @@
+{
+    "name": "diar/laravel-query-filter",
+    "description": "A query filter builder package",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "filters",
+        "query"
+    ],
+    "authors": [
+        {
+            "name": "Diar Qoroviqi",
+            "email": "qoroviqidiar@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {"Deviar\\LaravelQueryFilter\\":  "src/"}
+    },
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Deviar\\LaravelQueryFilter\\LaravelQueryFilterServiceProvider"
+            ]
+        }
+    }
+}
