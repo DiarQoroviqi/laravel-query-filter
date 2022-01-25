@@ -21,14 +21,14 @@ In order to use a filter you have to create a new one by the command that is pro
 ```
 php artisan make:filter BookFilters
 ```
-This command will create a directory ```Filters```and ```BookFilters``` class inside. To use the filter method of ```Book``` model use the `Filterable` trait:
+This command will create a directory ```Filters``` and ```BookFilters``` class inside. To use the filter method of ```Book``` model use the `Filterable` trait:
 
 ```php 
 <?php
 
 namespace App\Models;
 
-use use Deviar\LaravelQueryFilter\Filters\Filterable;
+use Deviar\LaravelQueryFilter\Filters\Filterable;
 
 class Book extends Model
 {
