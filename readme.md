@@ -21,7 +21,7 @@ In order to use a filter you have to create a new one by the command that is pro
 ```
 php artisan make:filter BookFilters
 ```
-This command will create a directory ```BookFilters``` class inside ```Filters``` directory. To use the filter method of ```Book``` model use the `Filterable` trait:
+This command will create a directory ```Filters```and ```BookFilters``` class inside. To use the filter method of ```Book``` model use the `Filterable` trait:
 
 ```php 
 <?php
